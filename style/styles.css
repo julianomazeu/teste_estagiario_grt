@@ -1,0 +1,64 @@
+.tabela {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-style: unset;
+    background-color: rgb(17, 67, 148);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tabela h1 {
+    border-bottom: 1px solid white;
+}
+
+.tabela button {
+    border: 0;
+    font-size: 15px;
+    background-color: #09081f;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 10px
+}
+
+.usuarios {
+    font-family: arial, sans-serif;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.usuarios td,
+th {
+    background-color: rgb(218, 203, 162);
+    border: 2px solid #090819;
+    text-align: center;
+    padding: 4px;
+    color: #000;
+    font-size: 15px;
+}
+
+.usuarios tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.tabela span {
+    margin-top: 5px;
+}
+
+.tabela input {
+    box-shadow: rgb(243, 227, 227);
+    background: rgb(199, 195, 195);
+    border-radius: 5px;
+    width: 200px;
+    align-items: center;
+
+}
+
